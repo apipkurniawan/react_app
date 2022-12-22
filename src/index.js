@@ -3,6 +3,7 @@ import ReactDOM from "react-dom/client";
 import "./index.css";
 import App from "./App";
 import reportWebVitals from "./reportWebVitals";
+// import Materi3 from "./components/Materi_3";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
@@ -20,6 +21,11 @@ root.render(
 //     </div>
 //   );
 //   root.render(element);
+// }
+// setInterval(tick, 1000);
+
+// function tick() {
+//   root.render(<Materi3 />);
 // }
 // setInterval(tick, 1000);
 
