@@ -1,5 +1,6 @@
 import "./App.css";
-import Materi7 from "./components/Materi_7";
+import Materi8 from "./components/Materi_8";
+// import Materi7 from "./components/Materi_7";
 // import Blog from "./components/Blog";
 // import Materi6 from "./components/Materi_6";
 // import Mailbox from "./components/Mailbox";
@@ -48,7 +49,8 @@ function App() {
 
     // Rendering a Component ........
     // element
-    <Materi7 />
+    <Materi8 />
+    // <Materi7 />
     // <Blog posts={posts} />
     // <Materi6 numbers={numbers} />
     // <Page />
