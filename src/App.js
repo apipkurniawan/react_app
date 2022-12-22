@@ -1,19 +1,20 @@
 import "./App.css";
 // import Default from "./components/Default";
 // import Materi1 from "./components/Materi_1";
-import Materi2 from "./components/Materi_2";
+// import Materi2 from "./components/Materi_2";
+import Materi3 from "./components/Materi_3";
 
 function App() {
   // const element = <Materi2 name="apip kurniawan"></Materi2>;
 
-  const comment = {
-    date: new Date(),
-    text: "I hope you enjoy learning React!",
-    author: {
-      name: "Hello Kitty",
-      avatarUrl: "http://placekitten.com/g/64/64",
-    },
-  };
+  // const comment = {
+  //   date: new Date(),
+  //   text: "I hope you enjoy learning React!",
+  //   author: {
+  //     name: "Hello Kitty",
+  //     avatarUrl: "http://placekitten.com/g/64/64",
+  //   },
+  // };
 
   return (
     // Composing Components ........
@@ -24,8 +25,9 @@ function App() {
     // </div>
 
     // Extracting Components ........
-    <Materi2 date={comment.date} text={comment.text} author={comment.author} />
+    // <Materi2 date={comment.date} text={comment.text} author={comment.author} />
 
+    <Materi3 />
     // Rendering a Component ........
     // element
     // <Materi1></Materi1>
