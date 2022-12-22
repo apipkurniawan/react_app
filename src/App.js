@@ -1,5 +1,6 @@
 import "./App.css";
-import Blog from "./components/Blog";
+import Materi7 from "./components/Materi_7";
+// import Blog from "./components/Blog";
 // import Materi6 from "./components/Materi_6";
 // import Mailbox from "./components/Mailbox";
 // import Page from "./components/WarningBanner";
@@ -25,14 +26,14 @@ function App() {
 
   // const messages = ["React", "Re: React", "Re:Re: React"];
   // const numbers = [1, 2, 3, 4, 5];
-  const posts = [
-    { id: 1, title: "Hello World", content: "Welcome to learning React!" },
-    {
-      id: 2,
-      title: "Installation",
-      content: "You can install React from npm.",
-    },
-  ];
+  // const posts = [
+  //   { id: 1, title: "Hello World", content: "Welcome to learning React!" },
+  //   {
+  //     id: 2,
+  //     title: "Installation",
+  //     content: "You can install React from npm.",
+  //   },
+  // ];
 
   return (
     // Composing Components ........
@@ -47,7 +48,8 @@ function App() {
 
     // Rendering a Component ........
     // element
-    <Blog posts={posts} />
+    <Materi7 />
+    // <Blog posts={posts} />
     // <Materi6 numbers={numbers} />
     // <Page />
     // <LoginControl isLoggedIn={false} />
