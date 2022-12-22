@@ -1,5 +1,7 @@
 import "./App.css";
-import LoginControl from "./components/Login";
+// import Mailbox from "./components/Mailbox";
+import Page from "./components/WarningBanner";
+// import LoginControl from "./components/Login";
 // import Materi5 from "./components/Materi_5";
 // import Default from "./components/Default";
 // import Materi1 from "./components/Materi_1";
@@ -19,6 +21,8 @@ function App() {
   //   },
   // };
 
+  // const messages = ["React", "Re: React", "Re:Re: React"];
+
   return (
     // Composing Components ........
     // <div>
@@ -32,7 +36,9 @@ function App() {
 
     // Rendering a Component ........
     // element
-    <LoginControl isLoggedIn={false} />
+    <Page />
+    // <LoginControl isLoggedIn={false} />
+    // <Mailbox unreadMessages={messages} />
     // <Materi5 isLoggedIn={false} />
     // <Materi4 />
     // <Materi3 />
