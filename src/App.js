@@ -1,9 +1,10 @@
 import "./App.css";
+import Materi5 from "./components/Materi_5";
 // import Default from "./components/Default";
 // import Materi1 from "./components/Materi_1";
 // import Materi2 from "./components/Materi_2";
 // import Materi3 from "./components/Materi_3";
-import Materi4 from "./components/Materi_4";
+// import Materi4 from "./components/Materi_4";
 
 function App() {
   // const element = <Materi2 name="apip kurniawan"></Materi2>;
@@ -30,7 +31,8 @@ function App() {
 
     // Rendering a Component ........
     // element
-    <Materi4 />
+    <Materi5 isLoggedIn={false} />
+    // <Materi4 />
     // <Materi3 />
     // <Materi1></Materi1>
     // <Default></Default>
