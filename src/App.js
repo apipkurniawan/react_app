@@ -2,7 +2,8 @@ import "./App.css";
 // import Default from "./components/Default";
 // import Materi1 from "./components/Materi_1";
 // import Materi2 from "./components/Materi_2";
-import Materi3 from "./components/Materi_3";
+// import Materi3 from "./components/Materi_3";
+import Materi4 from "./components/Materi_4";
 
 function App() {
   // const element = <Materi2 name="apip kurniawan"></Materi2>;
@@ -27,9 +28,10 @@ function App() {
     // Extracting Components ........
     // <Materi2 date={comment.date} text={comment.text} author={comment.author} />
 
-    <Materi3 />
     // Rendering a Component ........
     // element
+    <Materi4 />
+    // <Materi3 />
     // <Materi1></Materi1>
     // <Default></Default>
   );
