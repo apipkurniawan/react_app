@@ -1,18 +1,18 @@
 import "./App.css";
-import Materi9 from "./components/Materi_9";
-// import Materi8 from "./components/Materi_8";
-// import Materi7 from "./components/Materi_7";
-// import Blog from "./components/Blog";
-// import Materi6 from "./components/Materi_6";
-// import Mailbox from "./components/Mailbox";
-// import Page from "./components/WarningBanner";
-// import LoginControl from "./components/Login";
-// import Materi5 from "./components/Materi_5";
-// import Default from "./components/Default";
-// import Materi1 from "./components/Materi_1";
-// import Materi2 from "./components/Materi_2";
-// import Materi3 from "./components/Materi_3";
-// import Materi4 from "./components/Materi_4";
+import Materi9 from "./main-concepts/Materi_9";
+// import Materi8 from "./main-concepts/Materi_8";
+// import Materi7 from "./main-concepts/Materi_7";
+// import Blog from "./main-concepts/Blog";
+// import Materi6 from "./main-concepts/Materi_6";
+// import Mailbox from "./main-concepts/Mailbox";
+// import Page from "./main-concepts/WarningBanner";
+// import LoginControl from "./main-concepts/Login";
+// import Materi5 from "./main-concepts/Materi_5";
+// import Default from "./main-concepts/Default";
+// import Materi1 from "./main-concepts/Materi_1";
+// import Materi2 from "./main-concepts/Materi_2";
+// import Materi3 from "./main-concepts/Materi_3";
+// import Materi4 from "./main-concepts/Materi_4";
 
 function App() {
   // const element = <Materi2 name="apip kurniawan"></Materi2>;

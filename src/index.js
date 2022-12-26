@@ -3,7 +3,7 @@ import ReactDOM from "react-dom/client";
 import "./index.css";
 import App from "./App";
 import reportWebVitals from "./reportWebVitals";
-// import Materi3 from "./components/Materi_3";
+// import Materi3 from "./main-concepts/Materi_3";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
