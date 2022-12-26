@@ -1,5 +1,8 @@
 import "./App.css";
-import Materi9 from "./main-concepts/Materi_9";
+import BlurExample from "./advanced-guides/accessibility/blur-example";
+// import Parent from "./advanced-guides/accessibility/custom-text-input";
+// import CustomTextInput from "./advanced-guides/accessibility/custom-text-input";
+// import Materi9 from "./main-concepts/Materi_9";
 // import Materi8 from "./main-concepts/Materi_8";
 // import Materi7 from "./main-concepts/Materi_7";
 // import Blog from "./main-concepts/Blog";
@@ -50,7 +53,7 @@ function App() {
 
     // Rendering a Component ........
     // element
-    <Materi9 />
+    // <Materi9 />
     // <Materi8 />
     // <Materi7 />
     // <Blog posts={posts} />
@@ -63,6 +66,11 @@ function App() {
     // <Materi3 />
     // <Materi1></Materi1>
     // <Default></Default>
+
+    // advanced guides ..........
+    // <CustomTextInput />
+    // <Parent />
+    <BlurExample />
   );
 }
 
