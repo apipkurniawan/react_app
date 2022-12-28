@@ -1,5 +1,13 @@
+import React from "react";
 import "./App.css";
-import BlurExample from "./advanced-guides/accessibility/blur-example";
+import Expenses from "./components/Expenses/Expenses";
+import NewExpense from "./components/NewExpense/NewExpense";
+
+// import BlurExample from "./advanced-guides/accessibility/blur-example";
+// const BlurExample = React.lazy(() =>
+//   import("./advanced-guides/accessibility/blur-example")
+// );
+
 // import Parent from "./advanced-guides/accessibility/custom-text-input";
 // import CustomTextInput from "./advanced-guides/accessibility/custom-text-input";
 // import Materi9 from "./main-concepts/Materi_9";
@@ -40,6 +48,34 @@ function App() {
   //   },
   // ];
 
+  // UDEMY ........
+  const expenses = [
+    {
+      id: "e1",
+      title: "Toilet Paper",
+      amount: 94.12,
+      date: new Date(2020, 7, 14),
+    },
+    { id: "e2", title: "New TV", amount: 799.49, date: new Date(2021, 2, 12) },
+    {
+      id: "e3",
+      title: "Car Insurance",
+      amount: 294.67,
+      date: new Date(2021, 2, 28),
+    },
+    {
+      id: "e4",
+      title: "New Desk (Wooden)",
+      amount: 450,
+      date: new Date(2021, 5, 12),
+    },
+  ];
+
+  const addExpenseHandler = (data) => {
+    console.log("app.js");
+    console.log(data);
+  };
+
   return (
     // Composing Components ........
     // <div>
@@ -70,7 +106,13 @@ function App() {
     // advanced guides ..........
     // <CustomTextInput />
     // <Parent />
-    <BlurExample />
+    // <BlurExample />
+
+    // UDEMY ............
+    <div>
+      <NewExpense onAddExpense={addExpenseHandler} />
+      <Expenses items={expenses} />
+    </div>
   );
 }
 
